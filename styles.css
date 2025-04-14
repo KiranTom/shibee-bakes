@@ -1,4 +1,41 @@
 body {
-    background-color: #fff0f5;
-  }
-  
+  font-family: sans-serif;
+  background-color: #fff0f5;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #d6336c;
+  margin-bottom: 30px;
+}
+
+.catalog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cake-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cake-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cake-card h2 {
+  margin: 10px 0 5px;
+  color: #5d1049;
+}
+
+.cake-card p {
+  color: #333;
+  font-size: 0.9em;
+}
